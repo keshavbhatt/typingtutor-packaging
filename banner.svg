@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2400" height="800" viewBox="0 0 2400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2e34"/>
+      <stop offset="1" stop-color="#191b1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5c542" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#f5c542" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="2400" height="800" fill="url(#bg)"/>
+  <!-- soft amber glow behind the app mark -->
+  <circle cx="400" cy="400" r="440" fill="url(#glow)"/>
+
+  <!-- Quiet keyboard-row motif bleeding off the right edge -->
+  <g opacity="0.9">
+    <g fill="#333940">
+      <rect x="1740" y="250" width="120" height="120" rx="20"/>
+      <rect x="1885" y="250" width="120" height="120" rx="20"/>
+      <rect x="2030" y="250" width="120" height="120" rx="20"/>
+      <rect x="2175" y="250" width="120" height="120" rx="20"/>
+      <rect x="2320" y="250" width="120" height="120" rx="20"/>
+      <rect x="1812" y="395" width="120" height="120" rx="20"/>
+      <rect x="2102" y="395" width="120" height="120" rx="20"/>
+      <rect x="2247" y="395" width="120" height="120" rx="20"/>
+      <rect x="1884" y="540" width="120" height="120" rx="20"/>
+      <rect x="2029" y="540" width="120" height="120" rx="20"/>
+      <rect x="2174" y="540" width="120" height="120" rx="20"/>
+      <rect x="2319" y="540" width="120" height="120" rx="20"/>
+    </g>
+    <!-- one lit key (home-row style) -->
+    <rect x="1957" y="395" width="120" height="120" rx="20" fill="#f5c542" opacity="0.85"/>
+  </g>
+
+  <!-- App icon (the amber keyboard mark), scaled from the 256px source -->
+  <g transform="translate(190,222) scale(1.4)">
+    <rect x="24" y="24" width="208" height="208" rx="52" fill="#f5c542"/>
+    <rect x="52" y="84" width="152" height="90" rx="18" fill="#17191f"/>
+    <g fill="#c7ccd6">
+      <rect x="76"  y="100" width="20" height="16" rx="4"/>
+      <rect x="104" y="100" width="20" height="16" rx="4"/>
+      <rect x="132" y="100" width="20" height="16" rx="4"/>
+      <rect x="160" y="100" width="20" height="16" rx="4"/>
+      <rect x="76"  y="124" width="20" height="16" rx="4"/>
+      <rect x="132" y="124" width="20" height="16" rx="4"/>
+      <rect x="160" y="124" width="20" height="16" rx="4"/>
+    </g>
+    <rect x="104" y="124" width="20" height="16" rx="4" fill="#ffffff"/>
+    <rect x="76"  y="148" width="104" height="14" rx="5" fill="#2b303b"/>
+  </g>
+
+  <!-- Wordmark + tagline -->
+  <text x="700" y="372" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="150" font-weight="700" letter-spacing="-3" fill="#e9ecf0">TypingMaster</text>
+  <text x="706" y="462" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="58" font-weight="400" fill="#f5c542">Adaptive touch-typing trainer</text>
+  <text x="708" y="540" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="40" font-weight="400" fill="#939eae">265 languages · 187 themes · smart weak-key drills</text>
+</svg>

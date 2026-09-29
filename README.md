@@ -1,10 +1,10 @@
-# TypingMaster — Adaptive Touch-Typing Trainer for Linux
+# TypingTutor: Adaptive Touch-Typing Trainer for Linux
 
 <p align="center">
-  <img width="200" height="200" src="https://github.com/keshavbhatt/typingmaster-packaging/blob/main/icons/icon-256.png?raw=true">
+  <img width="200" height="200" src="https://github.com/keshavbhatt/typingtutor-packaging/blob/main/icons/icon-256.png?raw=true">
 </p>
 
-TypingMaster helps you build real touch-typing speed and accuracy on your Linux
+TypingTutor helps you build real touch-typing speed and accuracy on your Linux
 desktop. Practise with words, timed, quote and custom text across a huge range of
 languages and keyboard layouts, then see exactly where your fingers slow down.
 
@@ -30,11 +30,11 @@ languages and keyboard layouts, then see exactly where your fingers slow down.
 
 ## Links
 
-- Product page: https://ktechpit.com/USS/public/product.php?slug=typingmaster
+- Product page: https://ktechpit.com/USS/public/product.php?slug=typingtutor
 - More apps by KTechpit: https://ktechpit.com/USS/public/products.php
 
 ## About this repository
 
 This repository hosts packaging metadata and store assets (icons, screenshots and
-the featured banner) for **TypingMaster**, a proprietary application by KTechpit.
+the featured banner) for **TypingTutor**, a proprietary application by KTechpit.
 See [LICENSE](LICENSE).

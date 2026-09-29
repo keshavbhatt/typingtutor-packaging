@@ -53,7 +53,7 @@
   </g>
 
   <!-- Wordmark + tagline -->
-  <text x="700" y="372" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="150" font-weight="700" letter-spacing="-3" fill="#e9ecf0">TypingMaster</text>
+  <text x="700" y="372" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="150" font-weight="700" letter-spacing="-3" fill="#e9ecf0">TypingTutor</text>
   <text x="706" y="462" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="58" font-weight="400" fill="#f5c542">Adaptive touch-typing trainer</text>
   <text x="708" y="540" font-family="Cantarell, 'DejaVu Sans', sans-serif" font-size="40" font-weight="400" fill="#939eae">265 languages · 189 themes · smart weak-key drills</text>
 </svg>
